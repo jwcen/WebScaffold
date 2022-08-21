@@ -1,0 +1,28 @@
+app:
+  name: "web_app"
+  mode: "dev"
+  port: 8081
+  version: "v1.1"
+
+log:
+  level: "debug"
+  filename: "web_app.log"
+  max_size: 200  # 最大容量
+  max_age: 30  # 30 天过期
+  max_backups: 7
+
+mysql:
+  host: "127.0.0.1"
+  port: 3306
+  user: "root"
+  password: "wei123"
+  dbname: "db1"
+  max_open_conns: 20
+  max_idle_conns: 10
+
+redis:
+  host: "127.0.0.1"
+  port: 6379
+  db: 0
+  password: "123456"
+  pool_size: 100
