@@ -1,0 +1,19 @@
+{"level":"ERROR","time":"2022-08-21T16:44:22.082+0800","caller":"mysql/mysql.go:23","msg":"Connect DB failed","error":"dial tcp 127.0.0.1:13306: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"DEBUG","time":"2022-08-21T16:44:22.102+0800","caller":"gin_demo/main.go:39","msg":""}
+{"level":"ERROR","time":"2022-08-21T16:44:42.538+0800","caller":"mysql/mysql.go:23","msg":"Connect DB failed","error":"Error 1049: Unknown database 'sql_demo'"}
+{"level":"DEBUG","time":"2022-08-21T16:44:42.551+0800","caller":"gin_demo/main.go:39","msg":""}
+{"level":"INFO","time":"2022-08-21T16:45:14.164+0800","caller":"logger/logger.go:70","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36","errors":"","cost":0.0003174}
+{"level":"INFO","time":"2022-08-21T16:45:14.280+0800","caller":"logger/logger.go:70","msg":"/favicon.ico","status":404,"method":"GET","path":"/favicon.ico","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","time":"2022-08-21T16:45:18.556+0800","caller":"gin_demo/main.go:71","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-08-21T16:45:20.248+0800","caller":"gin_demo/main.go:80","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-08-21T16:45:20.249+0800","caller":"gin_demo/main.go:81","msg":""}
+{"level":"INFO","time":"2022-08-21T17:20:41.960+0800","caller":"logger/logger.go:71","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","time":"2022-08-21T17:24:31.450+0800","caller":"logger/logger.go:71","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36","errors":"","cost":0.000363}
+{"level":"INFO","time":"2022-08-21T17:24:32.195+0800","caller":"logger/logger.go:71","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","time":"2022-08-21T17:24:37.787+0800","caller":"gin_demo/main.go:71","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-08-21T17:24:37.787+0800","caller":"gin_demo/main.go:80","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-08-21T17:24:37.787+0800","caller":"gin_demo/main.go:81","msg":""}
+{"level":"INFO","time":"2022-08-21T17:24:46.662+0800","caller":"logger/logger.go:71","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","time":"2022-08-21T17:25:18.562+0800","caller":"gin_demo/main.go:71","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-08-21T17:25:18.572+0800","caller":"gin_demo/main.go:80","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-08-21T17:25:18.572+0800","caller":"gin_demo/main.go:81","msg":""}
